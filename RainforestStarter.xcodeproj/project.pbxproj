@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397B56DD14A2552597147BCB /* libPods-RainforestStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8299533D55FA29D8AE4CBF78 /* libPods-RainforestStarter.a */; };
+		9FF736F81D53778F009B70D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF736F71D53778F009B70D9 /* Assets.xcassets */; };
+		9FF7370D1D537795009B70D9 /* AnimalTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF736FB1D537795009B70D9 /* AnimalTableController.m */; };
+		9FF7370E1D537795009B70D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF736FD1D537795009B70D9 /* AppDelegate.m */; };
+		9FF737101D537795009B70D9 /* CardNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF737011D537795009B70D9 /* CardNode.m */; };
+		9FF737111D537795009B70D9 /* Factories.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF737031D537795009B70D9 /* Factories.m */; };
+		9FF737121D537795009B70D9 /* GradientNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF737051D537795009B70D9 /* GradientNode.m */; };
+		9FF737131D537795009B70D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF737061D537795009B70D9 /* main.m */; };
+		9FF737141D537795009B70D9 /* RainforestCardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF737081D537795009B70D9 /* RainforestCardInfo.m */; };
+		9FF737151D537795009B70D9 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7370A1D537795009B70D9 /* UIImage+ImageEffects.m */; };
+		9FF737161D537795009B70D9 /* AnimalPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7370C1D537795009B70D9 /* AnimalPagerController.m */; };
+		AE2FB98A1E1502D50076E895 /* ASImageNode+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2FB9891E1502D50076E895 /* ASImageNode+Placeholder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50F75BA535D152EB9EE29CD1 /* Pods-RainforestStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainforestStarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainforestStarter/Pods-RainforestStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		51A9845947FDA268B69AAB47 /* Pods-RainforestFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainforestFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainforestFinal/Pods-RainforestFinal.release.xcconfig"; sourceTree = "<group>"; };
+		53049572C51547920748D59D /* Pods-RainforestStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainforestStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainforestStarter/Pods-RainforestStarter.release.xcconfig"; sourceTree = "<group>"; };
+		8299533D55FA29D8AE4CBF78 /* libPods-RainforestStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainforestStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4A3787FB74D5E546C6FE92 /* libPods-RainforestFinal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RainforestFinal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F52FEFC928ECED95BAA0AC1 /* Pods-RainforestFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainforestFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainforestFinal/Pods-RainforestFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF736F71D53778F009B70D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF736FA1D537795009B70D9 /* AnimalTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalTableController.h; sourceTree = "<group>"; };
+		9FF736FB1D537795009B70D9 /* AnimalTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalTableController.m; sourceTree = "<group>"; };
+		9FF736FC1D537795009B70D9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FF736FD1D537795009B70D9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FF737001D537795009B70D9 /* CardNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardNode.h; path = Source/CardNode.h; sourceTree = "<group>"; };
+		9FF737011D537795009B70D9 /* CardNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardNode.m; path = Source/CardNode.m; sourceTree = "<group>"; };
+		9FF737021D537795009B70D9 /* Factories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factories.h; sourceTree = "<group>"; };
+		9FF737031D537795009B70D9 /* Factories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factories.m; sourceTree = "<group>"; };
+		9FF737041D537795009B70D9 /* GradientNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientNode.h; sourceTree = "<group>"; };
+		9FF737051D537795009B70D9 /* GradientNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientNode.m; sourceTree = "<group>"; };
+		9FF737061D537795009B70D9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FF737071D537795009B70D9 /* RainforestCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainforestCardInfo.h; sourceTree = "<group>"; };
+		9FF737081D537795009B70D9 /* RainforestCardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainforestCardInfo.m; sourceTree = "<group>"; };
+		9FF737091D537795009B70D9 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		9FF7370A1D537795009B70D9 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9FF7370B1D537795009B70D9 /* AnimalPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalPagerController.h; sourceTree = "<group>"; };
+		9FF7370C1D537795009B70D9 /* AnimalPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalPagerController.m; sourceTree = "<group>"; };
+		9FF737171D53779B009B70D9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2FB48A1C821D0C003AD243 /* RainforestStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainforestStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2FB9881E1502D50076E895 /* ASImageNode+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASImageNode+Placeholder.h"; sourceTree = "<group>"; };
+		AE2FB9891E1502D50076E895 /* ASImageNode+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASImageNode+Placeholder.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE2FB4871C821D0C003AD243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397B56DD14A2552597147BCB /* libPods-RainforestStarter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3599802BDBBDE3F7D6CE4186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F52FEFC928ECED95BAA0AC1 /* Pods-RainforestFinal.debug.xcconfig */,
+				51A9845947FDA268B69AAB47 /* Pods-RainforestFinal.release.xcconfig */,
+				50F75BA535D152EB9EE29CD1 /* Pods-RainforestStarter.debug.xcconfig */,
+				53049572C51547920748D59D /* Pods-RainforestStarter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D433328AE0A8973B03BBC51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A3787FB74D5E546C6FE92 /* libPods-RainforestFinal.a */,
+				8299533D55FA29D8AE4CBF78 /* libPods-RainforestStarter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FF736F61D53778F009B70D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FF736F71D53778F009B70D9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9FF736F91D537795009B70D9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9FF737061D537795009B70D9 /* main.m */,
+				9FF736FC1D537795009B70D9 /* AppDelegate.h */,
+				9FF736FD1D537795009B70D9 /* AppDelegate.m */,
+				9FF7370B1D537795009B70D9 /* AnimalPagerController.h */,
+				9FF7370C1D537795009B70D9 /* AnimalPagerController.m */,
+				9FF736FA1D537795009B70D9 /* AnimalTableController.h */,
+				9FF736FB1D537795009B70D9 /* AnimalTableController.m */,
+				9FF737021D537795009B70D9 /* Factories.h */,
+				9FF737031D537795009B70D9 /* Factories.m */,
+				9FF737041D537795009B70D9 /* GradientNode.h */,
+				9FF737051D537795009B70D9 /* GradientNode.m */,
+				9FF737071D537795009B70D9 /* RainforestCardInfo.h */,
+				9FF737081D537795009B70D9 /* RainforestCardInfo.m */,
+				9FF737091D537795009B70D9 /* UIImage+ImageEffects.h */,
+				9FF7370A1D537795009B70D9 /* UIImage+ImageEffects.m */,
+				AE2FB9881E1502D50076E895 /* ASImageNode+Placeholder.h */,
+				AE2FB9891E1502D50076E895 /* ASImageNode+Placeholder.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AE2FB4811C821D0C003AD243 = {
+			isa = PBXGroup;
+			children = (
+				9FF737001D537795009B70D9 /* CardNode.h */,
+				9FF737011D537795009B70D9 /* CardNode.m */,
+				9FF736F91D537795009B70D9 /* Source */,
+				9FF736F61D53778F009B70D9 /* Resources */,
+				AE2FB48B1C821D0C003AD243 /* Products */,
+				9FF737171D53779B009B70D9 /* Info.plist */,
+				3599802BDBBDE3F7D6CE4186 /* Pods */,
+				3D433328AE0A8973B03BBC51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE2FB48B1C821D0C003AD243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE2FB48A1C821D0C003AD243 /* RainforestStarter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE2FB4891C821D0C003AD243 /* RainforestStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2FB4A11C821D0C003AD243 /* Build configuration list for PBXNativeTarget "RainforestStarter" */;
+			buildPhases = (
+				D12F54EFDD23DF07E4BD13CB /* [CP] Check Pods Manifest.lock */,
+				AE2FB4861C821D0C003AD243 /* Sources */,
+				AE2FB4871C821D0C003AD243 /* Frameworks */,
+				AE2FB4881C821D0C003AD243 /* Resources */,
+				2599D7943D570AE50C7B7A21 /* [CP] Embed Pods Frameworks */,
+				0D3A4CFED3236ACA7E71919C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainforestStarter;
+			productName = RainForestFinal;
+			productReference = AE2FB48A1C821D0C003AD243 /* RainforestStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE2FB4821C821D0C003AD243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					AE2FB4891C821D0C003AD243 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5QW5R48CC5;
+					};
+				};
+			};
+			buildConfigurationList = AE2FB4851C821D0C003AD243 /* Build configuration list for PBXProject "RainforestStarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE2FB4811C821D0C003AD243;
+			productRefGroup = AE2FB48B1C821D0C003AD243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE2FB4891C821D0C003AD243 /* RainforestStarter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE2FB4881C821D0C003AD243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF736F81D53778F009B70D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3A4CFED3236ACA7E71919C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainforestStarter/Pods-RainforestStarter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2599D7943D570AE50C7B7A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainforestStarter/Pods-RainforestStarter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D12F54EFDD23DF07E4BD13CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE2FB4861C821D0C003AD243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF737121D537795009B70D9 /* GradientNode.m in Sources */,
+				9FF737141D537795009B70D9 /* RainforestCardInfo.m in Sources */,
+				9FF737101D537795009B70D9 /* CardNode.m in Sources */,
+				9FF737161D537795009B70D9 /* AnimalPagerController.m in Sources */,
+				9FF7370E1D537795009B70D9 /* AppDelegate.m in Sources */,
+				9FF737151D537795009B70D9 /* UIImage+ImageEffects.m in Sources */,
+				9FF7370D1D537795009B70D9 /* AnimalTableController.m in Sources */,
+				AE2FB98A1E1502D50076E895 /* ASImageNode+Placeholder.m in Sources */,
+				9FF737131D537795009B70D9 /* main.m in Sources */,
+				9FF737111D537795009B70D9 /* Factories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE2FB49F1C821D0C003AD243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE2FB4A01C821D0C003AD243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE2FB4A21C821D0C003AD243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F75BA535D152EB9EE29CD1 /* Pods-RainforestStarter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5QW5R48CC5;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RainforestStarter;
+				PRODUCT_NAME = RainforestStarter;
+			};
+			name = Debug;
+		};
+		AE2FB4A31C821D0C003AD243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53049572C51547920748D59D /* Pods-RainforestStarter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5QW5R48CC5;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.RainforestStarter;
+				PRODUCT_NAME = RainforestStarter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE2FB4851C821D0C003AD243 /* Build configuration list for PBXProject "RainforestStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2FB49F1C821D0C003AD243 /* Debug */,
+				AE2FB4A01C821D0C003AD243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2FB4A11C821D0C003AD243 /* Build configuration list for PBXNativeTarget "RainforestStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2FB4A21C821D0C003AD243 /* Debug */,
+				AE2FB4A31C821D0C003AD243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE2FB4821C821D0C003AD243 /* Project object */;
+}
